@@ -11,3 +11,12 @@ four steps, in order, no skipping:
 
 the agent is only as good as the spec and the check. i've been writing specs and tests for a
 decade; this just points that habit at an agent.
+
+## v2 - templates and a real verify stage
+
+writing the spec from a blank page was friction, so there's a template now
+(workflow/templates/spec-template.md). fill it in.
+
+the verify step got stricter: not "looks right", but each invariant in the spec checked and
+named pass or fail. if an invariant can't be checked, it wasn't a real invariant - rewrite it
+until it is.
