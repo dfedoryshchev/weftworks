@@ -1,16 +1,20 @@
-# worked example: the loop on a small refactor
+# worked example: the loop on a refactor
 
-the four steps on a real-ish task: splitting a function that does two jobs into two.
+a real one: a module that had grown to do three jobs (load, validate, report) in one file,
+where every change to one broke the others.
 
-**spec.** the function parses and formats in one blob. done = parse and format are separate,
-same output for the same input, existing callers unchanged.
+**spec.** three concerns split into three units. same public function, same output for the
+same input, no caller changes. filled in from the template.
 
-**plan.** one file. add parse() and format(), have the old function call both. no behaviour
-change.
+**plan.** move validate and report into their own files, leave load as the entry point that
+calls them. one commit per move so each stays reviewable.
 
-**execute.** agent makes the split.
+**execute.** agent moves validate first, runs tests, then report. i watch the diffs, not the
+keystrokes.
 
-**verify.** run the existing tests, same output. no caller touched. done.
+**verify.** every invariant from the spec, checked: same output on the existing fixtures, no
+caller touched, three files where there was one. two held; the report split had quietly
+changed an error message, caught at verify and fixed before merge.
 
-nothing clever here. the value is that "same output for the same input" was written down
-before the agent started, so verify was a yes or no, not a vibe.
+the changed error message is the point. without the written invariant "same output", that
+slips through as close enough.
