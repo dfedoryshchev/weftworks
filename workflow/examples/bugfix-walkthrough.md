@@ -1,7 +1,6 @@
 # worked example: the loop on a bugfix
 
-a date-window filter, in a reporting job i was cleaning up, quietly missed items dated on the
-last day of the range.
+a date-window filter quietly missed items dated on the last day of the range.
 
 **spec.** done = items on the final day of the window are included; every other window result
 stays identical. one invariant, one regression guard.
