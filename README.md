@@ -16,16 +16,20 @@ two things run through all of it:
 
 ## what's here
 
-- **workflow/** - the spec-driven loop (spec -> plan -> execute -> verify) and its templates.
-  the spine; start here.
-- **skills/** - small SKILL.md conventions: plan-first, test-first, safe-refactor,
-  dependency-check, code-review, commit-discipline, eval-before-merge.
-- **patterns/** - longer notes: a claude.md that survives long sessions, guardrails for
-  autonomous runs, multi-agent handoffs, agents.md.
+- **workflow/** - the spec-driven loop (spec -> plan -> execute -> verify), its spec template,
+  a spec-review checklist, and two worked examples. the spine; start here.
+- **skills/** - small SKILL.md conventions: plan-first, dependency-check, test-first,
+  safe-refactor, code-review, commit-discipline, eval-before-merge.
+- **patterns/** - longer notes: a claude.md that survives long sessions, claude.md
+  anti-patterns, guardrails for autonomous runs, multi-agent handoffs, agents.md.
 - **notes/** - honest retros.
+- **docs/** - the longer usage note.
 
 ## using them
 
 copy the skill folders into your project's skills setup, or read the workflow and adopt the
-loop by hand. take the few that fit how you already work; a convention you won't follow is just
-noise the agent has to ignore.
+loop by hand. take the few that fit how you already work. longer version in docs/usage.md.
+
+## license
+
+MIT. see LICENSE.
