@@ -4,6 +4,7 @@ small conventions, one folder each, in the SKILL.md format. drop a folder into a
 skills setup (or point the agent at it) to load the convention.
 
 - plan-first - spec before touching code
+- agent-budget - size a delegated task before you hand it over
 - dependency-check - map what depends on a file before editing
 - test-first - red before fix
 - safe-refactor - characterize legacy code before changing it
