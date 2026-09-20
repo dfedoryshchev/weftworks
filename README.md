@@ -23,12 +23,13 @@ two things run through all of it:
 - **patterns/** - longer notes: a claude.md that survives long sessions, claude.md
   anti-patterns, guardrails for autonomous runs, multi-agent handoffs, agents.md.
 - **notes/** - honest retros.
-- **docs/** - the longer usage note.
+- **docs/** - the longer usage note, and how i'd roll these out to a team.
 
 ## using them
 
 copy the skill folders into your project's skills setup, or read the workflow and adopt the
-loop by hand. take the few that fit how you already work. longer version in docs/usage.md.
+loop by hand. take the few that fit how you already work. longer version in docs/usage.md;
+docs/team-rollout.md if you're introducing them to other people.
 
 ## license
 
