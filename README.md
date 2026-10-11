@@ -19,7 +19,8 @@ two things run through all of it:
 - **workflow/** - the spec-driven loop (spec -> plan -> execute -> verify), its spec template,
   a spec-review checklist, and two worked examples. the spine; start here.
 - **skills/** - small SKILL.md conventions: plan-first, agent-budget, dependency-check,
-  test-first, safe-refactor, code-review, commit-discipline, eval-before-merge.
+  test-first, safe-refactor, code-review, commit-discipline, eval-before-merge,
+  incident-review.
 - **patterns/** - longer notes: a claude.md that survives long sessions, claude.md
   anti-patterns, guardrails for autonomous runs, multi-agent handoffs, agents.md.
 - **notes/** - honest retros.
