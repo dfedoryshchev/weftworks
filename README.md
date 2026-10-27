@@ -22,7 +22,8 @@ two things run through all of it:
   test-first, safe-refactor, code-review, commit-discipline, eval-before-merge,
   incident-review.
 - **patterns/** - longer notes: a claude.md that survives long sessions, claude.md
-  anti-patterns, guardrails for autonomous runs, multi-agent handoffs, agents.md.
+  anti-patterns, guardrails for autonomous runs, multi-agent handoffs, agents.md, versioning
+  skills as they change.
 - **notes/** - honest retros.
 - **docs/** - the longer usage note, how i'd roll these out to a team, and the objections that
   brings.
