@@ -9,8 +9,8 @@ would introduce them, reasoned from what breaks alone, not from it going well so
    agreeing on up front; the skills are its steps. a team sharing spec -> plan -> execute ->
    verify has settled the argument that actually costs time.
 2. **one skill, picked from their pain.** legacy nobody trusts -> safe-refactor. bugs coming
-   back -> test-first. delegated runs sized wrong -> agent-budget. all eight at once is a docs
-   site nobody opens.
+   back -> test-first. delegated runs sized wrong -> agent-budget. all of them at once is a
+   docs site nobody opens.
 3. **settle the pre-merge order first.** notes/retro.md found three things claiming that slot -
    code-review, eval-before-merge, step 4 of the loop - and nothing saying which runs first.
    alone i re-derive it each time; shared, it is three people doing three defensible things.

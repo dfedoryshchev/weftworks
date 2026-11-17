@@ -9,6 +9,7 @@ skills setup (or point the agent at it) to load the convention.
 - test-first - red before fix
 - safe-refactor - characterize legacy code before changing it
 - code-review - review the diff against the spec
+- doc-accuracy - check what a doc claims against the source
 - commit-discipline - small honest commits
 - eval-before-merge - check output against a fixed bar
 - incident-review - find why it broke without letting the agent write the story
